@@ -8,6 +8,10 @@ namespace Model
 {
     public  class StudentModel
     {
+        public StudentModel()
+        {
+
+        }
         public StudentModel(int id, string sid, string spwd, string sname, string scolleges, string sroom, string slivedate, string sage, string ssex, string sadress, string sclass, string sphone )
         {
             this.Id= id;
