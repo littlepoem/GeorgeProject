@@ -1,6 +1,6 @@
 ﻿namespace SDMS
 {
-    partial class frmMain
+    partial class Main
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmMain));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Main));
             this.skinMenuStrip2 = new CCWin.SkinControl.SkinMenuStrip();
             this.用户账号ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.用户密码管理ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -97,7 +97,7 @@
             this.skinMenuStrip2.RadiusStyle = CCWin.SkinClass.RoundStyle.All;
             this.skinMenuStrip2.Size = new System.Drawing.Size(800, 25);
             this.skinMenuStrip2.SkinAllColor = true;
-            this.skinMenuStrip2.TabIndex = 2;
+            this.skinMenuStrip2.TabIndex = 3;
             this.skinMenuStrip2.Text = "skinMenuStrip2";
             this.skinMenuStrip2.TitleAnamorphosis = true;
             this.skinMenuStrip2.TitleColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(228)))), ((int)(((byte)(236)))));
@@ -244,14 +244,14 @@
             this.内容ToolStripMenuItem.Size = new System.Drawing.Size(100, 22);
             this.内容ToolStripMenuItem.Text = "内容";
             // 
-            // frmMain
+            // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.skinMenuStrip2);
-            this.Name = "frmMain";
-            this.Text = "frmMain";
+            this.Name = "Main";
+            this.Text = "Main";
             this.skinMenuStrip2.ResumeLayout(false);
             this.skinMenuStrip2.PerformLayout();
             this.ResumeLayout(false);

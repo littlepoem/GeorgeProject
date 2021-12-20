@@ -16,7 +16,7 @@ namespace SDMS
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new ChangePwd());
+            Application.Run(new Main());
         }
     }
 }

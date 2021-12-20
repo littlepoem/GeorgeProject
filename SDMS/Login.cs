@@ -1,5 +1,4 @@
-﻿using CCWin;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -11,9 +10,9 @@ using System.Windows.Forms;
 
 namespace SDMS
 {
-    public partial class frmLogin : Form
+    public partial class Login : Form
     {
-        public frmLogin()
+        public Login()
         {
             InitializeComponent();
         }
