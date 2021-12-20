@@ -43,7 +43,12 @@
   <ItemGroup>
     <Compile Include="AdminDAL.cs" />
     <Compile Include="DbHelperSQL.cs" />
+    <Compile Include="LateReturnDAL.cs" />
+    <Compile Include="LeaveDAL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReportDAL.cs" />
+    <Compile Include="RootDAL.cs" />
+    <Compile Include="StudentDAL.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Model\Model.csproj">
